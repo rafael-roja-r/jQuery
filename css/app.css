@@ -1,0 +1,89 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: #1e314d;
+
+}
+
+td, th {
+  border: 1px solid #c7c7c7;
+  text-align: left;
+  padding: 2px;
+   text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+#prom{
+	font-family: arial, sans-serif;
+font-size: 30px;
+color: #1e314d;
+text-align: center;
+}
+button{
+	padding: 2px;
+	font-family: arial, sans-serif;
+width: 75px;
+color: #777572;
+
+}
+#boton1{
+	padding: 3px;
+	font-family: arial, sans-serif;
+    width: 75px;
+    color: #777572;
+  
+
+}
+#boton2{
+	padding: 3px;
+	font-family: arial, sans-serif;
+width: 75px;
+color: #777572;
+
+}
+#boton3{
+	padding: 3px;
+	font-family: arial, sans-serif;
+width: 75px;
+color: #777572;
+
+}
+#boton4{
+	padding: 3px;
+	font-family: arial, sans-serif;
+width: 85px;
+color: #777572;
+
+}
+#boton5{
+	padding: 3px;
+	font-family: arial, sans-serif;
+width: 85px;
+color: #777572;
+
+}
+
+h1{
+	font-family: arial, sans-serif;
+	color: #1e314d;
+}
+p{
+	font-family: arial, sans-serif;
+}
+
+input{
+	padding: 2px;
+	font-family: arial, sans-serif;
+	width: 200px;
+}
+
+.row{
+	text-align: center;
+}
+body{
+	background: #f9f9f9;
+}

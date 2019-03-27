@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Registro de Estudiantes</title>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+
+<div class="row">
+<h1>Registro de Estudiantes</h1>
+<form>
+<p> Codigo: </p>
+<input type="text" id="id" >
+<p> Nombre:</p>
+<input type="text" id="nombre" >
+<p> Nota:</p>
+<input type="text" id="nota" >
+
+</form>
+<br>
+<input id="boton1" type="button" value="Registrar">
+<input id="boton2" type="button" value="R"  title="Recetear">
+<input id="boton3" type="button" value="Promedio" onclick="promedio(this)"  title="Promedio">
+<input id="boton4" type="button" value="Mayor Nota" onclick="mayor_nota(this)" title="Mayor nota" >
+<input id="boton5" type="button" value="Menor Nota" onclick="menor_nota(this)"
+title="Menor nota" >
+<table>
+	
+</table>
+<p id="p1"></p>
+<p id="prom" ><b></b></p>
+
+<style type="text/css"></style>
+</div>
+</body>
+</html>
